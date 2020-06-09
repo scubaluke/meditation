@@ -1,0 +1,257 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    height: 100vh;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+nav{
+    color: white;
+}
+
+.background {
+height: 100vh;
+width: 100vw;
+position:relative;
+opacity:0.90;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+
+}
+
+.backgroundsmall{
+    height: 400px;
+    position:relative;
+opacity:0.90;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+.backgroundfade{
+    height: 100vh;
+width: 100vw;
+position:relative;
+opacity:0.90;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+#background1{
+    background-image: url("../img/image1.jpg");
+}
+#background2{
+    background-image: url("../img/image2.jpg");
+    min-height:400px;
+}
+
+#background3{
+    background-image: url("../img/image3.jpg");
+}
+
+#background4{
+    background-image: url("../img/image4.jpg");
+}
+
+#background5{
+    background-image: url("../img/image5.jpg");
+}
+
+#background6{
+    background-image: url("../img/image6.jpg");
+}
+
+#background7{
+    background-image: url("../img/image7.jpg");
+}
+
+#background8{
+    background-image: url("../img/image8.jpg");
+}
+#background9{
+    background-image: url("../img/image9.jpg");
+}
+
+#background10{
+    background-image: url("../img/image10.jpg");
+}
+
+#background11{
+    background-image: url("../img/image11.jpg");
+}
+
+#background12{
+    background-image: url("../img/image12.jpg");
+}
+
+#background13{
+    background-image: url("../img/image13.jpg");
+}
+
+#background14{
+    background-image: url("../img/image14.jpg");
+}
+
+#background15{
+    background-image: url("../img/image15.jpg");
+}
+
+#background16{
+    background-image: url("../img/image16.jpg");
+}
+
+#background17{
+    background-image: url("../img/image17.jpg");
+}
+
+#background18{
+    background-image: url("../img/image18.jpg");
+}
+
+#background19{
+    background-image: url("../img/image19.jpg");
+}
+
+#background20{
+    background-image: url("../img/image20.jpg");
+}
+
+#background21{
+    background-image: url("../img/image21.jpg");
+}
+
+#background22{
+    background-image: url("../img/image22.jpg");
+}
+
+#background23{
+    background-image: url("../img/image23.jpg");
+}
+
+#background24{
+    background-image: url("../img/image24.jpg");
+}
+
+#background25{
+    background-image: url("../img/image25.jpg");
+}
+
+#background26{
+    background-image: url("../img/image26.jpg");
+}
+
+#background27{
+    background-image: url("../img/image27.jpg");
+}
+
+#background28{
+    background-image: url("../img/image28.jpg");
+}
+
+#background29{
+    background-image: url("../img/image29.jpg");
+}
+
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    font-family: ;
+  }
+
+ .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+    font-weight: 600;
+    font-size: 2em;
+    font-family: "Balsamiq Sans",  sans-serif; 
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
+
+
+/*title positions*/
+
+  .hero__title {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 1rem;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: "Courgette", serif;
+    font-size: 8vw;
+    letter-spacing: -0.125rem;
+    margin: auto;
+  }
+
+  @supports (-webkit-overflow-scrolling: touch) {
+    .hero-inner {
+      clip: unset;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+              clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+  }
+  
+  .hero-inner {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    clip: rect(0, auto, auto, 0);}
+  
